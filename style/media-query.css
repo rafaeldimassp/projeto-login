@@ -3,7 +3,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     body {
-        background-image: linear-gradient(to top, rgba(229, 155, 17, 0.824), rgb(97, 97, 97)70%);
+        background-image: linear-gradient(to top, grey, white);
     }
 
     section#login {
@@ -20,12 +20,23 @@
         float: right;
         width: 70%;
     }
+
+    form > input[type=submit] {
+        width: 50%;
+        margin: auto;
+    }
+
+    form > a.botao {
+        width: 50%;
+        padding-top: 5px;
+        margin: 5px auto auto auto;
+    }
 }
 
 @media screen and (min-width: 992px) {
 
     body {
-        background-image: linear-gradient(to top, rgba(229, 155, 17, 0.824), rgb(97, 97, 97)70%);
+        background-image: linear-gradient(to top, grey, white);
         background-attachment: fixed;
     }
 
@@ -51,5 +62,16 @@
 
     div#formulario > p {
         font-size: 1.2em;
+    }
+
+    form > input[type=submit] {
+        width: 50%;
+        margin: auto;
+    }
+
+    form > a.botao {
+        width: 50%;
+        padding-top: 5px;
+        margin: 5px auto auto auto;
     }
 }
